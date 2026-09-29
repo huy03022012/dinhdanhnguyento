@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Hàm tính số electron trên mỗi lớp (dành cho 20 nguyên tố đầu tiên)
+// Hàm tính số electron trên mỗi lớp (dàh cho 20 nguyên tố đnầu tiên)
 const getElectronShells = (z) => {
   if (z <= 2) return [z];
   if (z <= 10) return [2, z - 2];

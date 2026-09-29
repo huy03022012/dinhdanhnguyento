@@ -11,7 +11,7 @@
     "web-vitals": "^6.2.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "GENERATE_SOURCEMAP=false react-scripts start",
     "build": "react-scripts build"
   },
   "browserslist": {
